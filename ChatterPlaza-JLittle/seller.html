@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		Author: Jonathon Little
+	-->
+	<title>Chatter Plaza - Seller</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="chatterplaza.css">
+	<link rel="icon" href="images/serene.ico" type="image/x-icon">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Chatter Plaza</h1>
+		</header>
+		<nav>
+			<a href="index.html">Home</a> &nbsp;
+			<a href="profile.html">Profile</a> &nbsp;
+			<a href="forum-data/register.html">Forums</a> &nbsp;
+			<a href="chat.html">Chat</a> &nbsp;
+			<a href="market.html">Market</a>
+		</nav>
+		<main>
+			<h2 style="text-align: left;">Seller Form:</h2>
+			   <p style="text-align: left;">Required fields are marked with an asterisk &#42;</p>                                             
+	        <form style="text-align: left;" action="thankyou.html" method="post" ENCTYPE="multipart/form-data">                            
+	           <label for="myFName">&#42;First Name:</label></br>                                                   
+		       <input type="text" name="myFName" id="myFName" required="required"></br>                             
+		       <label for="myLName">&#42;Last Name:</label></br>                                                   
+		       <input type="text" name="myLName" id="myLName" required="required"></br>                             
+		       <label for="myEmail">&#42;E&dash;Mail Address:</label></br>                                       
+		       <input type="email" name="myEmail" id="myEmail" size="35" required="required"></br>                   
+		       <label for="myPhone">Phone Number:</label></br>                                                       
+		       <input type="tel" name="myPhone" id="myPhone" maxlength="12"></br>                                     
+		       <label for="myComments">&#42;Please describe the item:</label></br>                                                  
+		       <textarea name="myComments" id="myComments" rows="2" cols="30" required="required"></textarea></br>
+			   <input type="file" name="pic" accept="image/*">
+		       <input type="submit" value="Submit">                                                              
+            </form>   
+			<footer>
+				Copyright &copy; 2019 Chatter Plaza
+				<div id="contact">Web Master: 
+				<a href="mailto:keldeostar@gmail.com">keldeostar@gmail.com</a>
+				</div>
+			</footer>
+		</main>
+	</div>
+</body>
+</html>
