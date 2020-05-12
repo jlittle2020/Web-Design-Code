@@ -1,0 +1,60 @@
+<!DOCTYPE html>                                                                                            <!-- Opens a new HTML document -->
+<html lang="en">                                                                                           <!-- Sets the language of the HTML document to English -->
+<head>                                                                                                     <!-- Opens the head element -->
+   <title>Pacific Trails Resort :: Reservations</title>                                                                    <!-- Sets the title to "Pacific Trails Resort" -->
+   <meta charset="utf-8">
+   <link href="pacific.css" rel="stylesheet">                                                              <!-- Links the HTML document to the pacific.css stylesheet -->
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">                                   <!-- Sets the page to be compatible with mobile devices -->
+   <!--
+      Author: Jonathon Little
+   -->
+</head>                                                                                                    <!-- Closes the head element -->
+<body>                                                                                                     <!-- Opens the body element -->
+   <div id="wrapper">                                                                                      <!-- Links to the wrapper id style -->
+   <header>                                                                                                <!-- Opens the header element -->
+      <h1>Pacific Trails Resort</h1>                                                                       <!-- Creates the header name Pacific Trails Resort -->
+   </header>                                                                                               <!-- Closes the header element -->
+   <nav>                                                                                                   <!-- Opens the nav element -->
+      <ul>                                                                                                 <!-- Opens the ul element -->
+         <li><a href="index.html">Home</a></li>                                                            <!-- Creates hyperlink list element that connects to index.html -->
+         <li><a href="yurts.html">Yurts</a></li>                                                           <!-- Creates hyperlink list element that connects to yurts.html -->
+         <li><a href="activities.html">Activities</a></li>                                                 <!-- Creates hyperlink list element that connects to activities.html -->
+         <li><a href="reservations.html">Reservations</a></li>                                             <!-- Creates hyperlink list element that connects to reservations.html -->
+      </ul>                                                                                                <!-- Closes the ul element -->
+   </nav>                                                                                                  <!-- Closes the nav element -->
+   <main>                                                                                                  <!-- Opens the main element -->
+      <h2>Reservations at Pacific Trails</h2>                                                              <!-- Creates title Reservations at Pacific Trails -->
+	  <h3>Contact Us Today&#33;</h3>                                                                       <!-- Creates h3 title Contact Us Today! -->
+	  <p>Required fields are marked with an asterisk &#42;</p>                                             <!-- Adds notification to users that required fields are marked -->
+	  <form method="post" action="http://webdevbasics.net/scripts/pacific.php">                            <!-- Adds server processing to form -->
+	     <label for="myFName">&#42;First Name:</label>                                                     <!-- Label for First Name -->
+		 <input type="text" name="myFName" id="myFName" required="required">                               <!-- Input control for First Name -->
+		 <label for="myLName">&#42;Last Name:</label>                                                      <!-- Label for Last Name -->
+		 <input type="text" name="myLName" id="myLName" required="required">                               <!-- Input control for Last Name -->
+		 <label for="myEmail">&#42;E&dash;Mail Address:</label>                                            <!-- Label for Email Address -->
+		 <input type="email" name="myEmail" id="myEmail" size="35" required="required">                    <!-- Input control for Email Address -->
+		 <label for="myPhone">Phone Number:</label>                                                        <!-- Label for Phone Number -->
+		 <input type="tel" name="myPhone" id="myPhone" maxlength="12">                                     <!-- Input control for Phone Number -->
+		 <label for="myDate">Arrival Date:</label>                                                         <!-- Label for Arrival Date -->
+		 <input type="date" name="myDate" id="myDate">                                                     <!-- Input control for Arrival Date -->
+		 <label for="myNights">Nights:</label>                                                             <!-- Label for Nights -->
+		 <input type="number" name="myNights" id="myNights" min="1" max="14">                              <!-- Input control for Nights -->
+		 <label for="myComments">&#42;Comments:</label>                                                    <!-- Label for Comments -->
+		 <textarea name="myComments" id="myComments" rows="2" cols="30" required="required"></textarea>    <!-- Input control for Comments -->
+		 <input type="submit" value="Submit">                                                              <!-- Creates Submit button -->
+      </form>                                                                                              <!-- Closes form -->
+   <div id="contact">                                                                                      <!-- Links to the contact id style -->
+      <span class="resort">Pacific Trails Resort</span><br>                                                <!-- Creates address information with link to the resort class for Pacific Trails Resort -->
+      12010 Pacific Trails Road<br>
+      Zephyr, CA 95555<br><br>
+      <a id="mobile" href="tel:888-555-5555">888-555-5555</a><br><br>                                      <!-- Creates a phone link for mobile users -->
+      <span id="desktop">888-555-5555</span><br><br>                                                       <!-- Creates a phone link for desktop users -->
+   </div>                                                                                                  <!-- Closes link to the contact id style -->
+   </main>                                                                                                 <!-- Closes the main element -->
+   <footer>                                                                                                <!-- Opens the footer element -->
+      Copyright &copy; 2018 Pacific Trails Resort<br>                                                      <!-- Creates copyright information -->
+      <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>                   <!-- Creates a contact email -->
+   </footer>                                                                                               <!-- Closes the footer -->
+   </div>                                                                                                  <!-- Closes link to the homehero id style -->
+</body>                                                                                                    <!-- Closes the body element -->
+</html>                                                                                                    <!-- Closes the HTML document -->
